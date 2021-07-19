@@ -1,0 +1,50 @@
+.btndiv {
+    display:flex;
+    justify-content:space-around;
+background-color: rgb(255, 177, 238);
+border: 8px groove rgb(207, 211, 8);
+border-bottom: none;
+
+margin: 20px 55px 0px;
+
+}
+body {
+    background-color :rgb(88, 42, 255);
+}
+
+html, body {
+    height: 100%;
+}
+
+.diedivcontainer {
+    display:flex;
+    flex-wrap: wrap;
+    height: 100%;
+    /* border: 8px double rgb(19, 184, 250); */
+    justify-content:flex-start;
+    /* background-color: rgb(29, 57, 182); */
+    background-image: linear-gradient(to bottom, rgb(164, 28, 130) 0%, rgb(127, 35, 203) 50%, rgb(20, 78, 117) 100%); box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; border: 8px groove rgb(207, 211, 8);
+
+    padding: 25px; 
+}
+
+.btn {
+    color: rgb(43, 255, 61); font-size: 30px; line-height: 30px; border-radius: 50px; font-family: serif, Georgia; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(to right, rgb(164, 28, 130) 0%, rgb(127, 35, 203) 50%, rgb(20, 78, 117) 100%); box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; border: 4px double rgb(251, 255, 39); display: inline-block;
+}
+
+
+.diediv {
+    flex-wrap: wrap;
+
+    font: 36px serif;
+    color: rgb(255, 106, 218);
+    background-color: #eeff05;
+    height: 100px;
+    width: 100px;
+    border: 10px double rgb(51, 151, 190);
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    
+    margin: 0px 35px 0px;
+}
